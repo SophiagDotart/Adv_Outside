@@ -6,7 +6,7 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: {
-                index: "./index.html", "./outside.tmj",
+                index: "./index.html", "./outside.tmj"
                 ...getMapsScripts(),
             },
         },
